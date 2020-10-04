@@ -1,15 +1,17 @@
 {
   "name": "tonline-fed-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Front-end Developer Test for Target Australia applicants",
   "main": "index.js",
+  "repository": "https://github.com/NickIannelli/tonline-fed-test",
   "scripts": {
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",
     "predist": "rm -rf ./dist",
     "dist": "cross-env NODE_ENV=production webpack --config=./webpack.config.babel.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config=./webpack.config.babel.js",
-    "test": "jest"
+    "test": "jest",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": "",
@@ -36,8 +38,10 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
+    "commitizen": "^4.2.1",
     "copy-webpack-plugin": "^4.6.0",
     "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "^3.3.0",
     "dotenv-webpack": "^3.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
@@ -62,5 +66,10 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-manifest-plugin": "^2.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
