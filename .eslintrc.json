@@ -17,5 +17,18 @@
     "node": true,
     "es6": true,
     "jest": true
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.js"],
+      "rules": {
+        "react/prop-types": 0
+      },
+      "globals": {
+        "shallow": true,
+        "render": true,
+        "mount": true
+      }
+    }
+  ]
 }
