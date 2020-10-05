@@ -22,6 +22,10 @@ Part 2: Expand on the application by allowing it to fetch 5 random user cards, w
 
 ### Your solution
 
-For your solution, we ask that you don't use a pre-existing CSS framework (Bootstrap, MaterialUI etc). We want to see how you go with styling components. We don't mind what solution you use for CSS (pure css, SASS, JSS, Style components etc) just that we can see how you style your components.
+For your solution, we ask that you don't use a pre-existing CSS framework (Bootstrap, MaterialUI etc). We want to see how you go with styling components. We don't mind what solution you use for CSS (pure css, SASS, JSS, Styled Components etc) just that we can see how you style your components.
 
 Feel free to use any state management tool as needed, and anything else needed to accomplish the goals.
+
+### Submitting & building your solution
+
+To build your solution, fork this repository and clone it into a local workspace. Work through any of your changes as you generally would, managing the commits through Git. When you are ready, and have updated your ASSUMPTIONS.md file - push your changes to your forked repository, and respond to the e-mail with a link to the repo. From there, we'll let you know once we've completed our assessment of your code, and you will be asked to delete your fork.
